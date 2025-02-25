@@ -1,4 +1,4 @@
-# DentYOLOX: Multi-task Learning for Joint Dental Disease Detection and Anatomy Segmentation from Partially Annotated Data
+# Dental Structure-Aware Joint Dental Disease Detection and Anatomy Segmentation
 
 ## Setup Environment
 1. Install required libraries by running 
@@ -55,7 +55,7 @@
 
 ## How to run
 Run the scripts with `--help` argument to see arguments descriptions.
-The following example runs train the DentYOLOX model with the default configuration:
+The following example runs train our proposed model with the default configuration:
 ```bash
 python tools/train.py -f exps/default/yolox_l_seg.py -d 1 -b 8 --fp16 -o -c pretrained_weights/yolox_l.pth \
     --logger wandb wandb-project <project_name>
