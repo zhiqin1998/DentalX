@@ -1,4 +1,6 @@
 # DentalX: Context-aware Dental Disease Detection
+[ISBI 2026](https://biomedicalimaging.org/2026) | [Proceeding](?) | 
+[![Paper](https://img.shields.io/badge/cs.CV-arxiv:2601.08797-B31B1B.svg)](https://arxiv.org/abs/2601.08797)
 
 ## Description
 Diagnosing dental diseases from radiographs is time-consuming and challenging due to the subtle nature of diagnostic evidence. Existing methods, which rely on object detection models designed for natural images with more distinct target patterns, struggle to detect dental diseases that present with far less visual support. To address this challenge, we propose DentalX, a novel context-aware dental disease detection approach that leverages oral structure information to mitigate the visual ambiguity inherent in radiographs. Specifically, we introduce a structural context extraction module that learns an auxiliary task: dental anatomy semantic segmentation. The module extracts meaningful structural context and integrates it into the primary disease detection task to enhance the detection of subtle dental diseases. 
