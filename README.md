@@ -1,5 +1,5 @@
 # DentalX: Context-aware Dental Disease Detection
-[ISBI 2026](https://biomedicalimaging.org/2026) | [Proceeding](https://doi.org/10.1109/ISBI61048.2026.11515626) | 
+[ISBI 2026 Oral](https://biomedicalimaging.org/2026) | [Proceeding](https://doi.org/10.1109/ISBI61048.2026.11515626) | 
 [![Paper](https://img.shields.io/badge/cs.CV-arxiv:2601.08797-B31B1B.svg)](https://arxiv.org/abs/2601.08797)
 
 ## Description
