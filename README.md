@@ -1,5 +1,5 @@
 # DentalX: Context-aware Dental Disease Detection
-[ISBI 2026](https://biomedicalimaging.org/2026) | [Proceeding](?) | 
+[ISBI 2026](https://biomedicalimaging.org/2026) | [Proceeding](https://doi.org/10.1109/ISBI61048.2026.11515626) | 
 [![Paper](https://img.shields.io/badge/cs.CV-arxiv:2601.08797-B31B1B.svg)](https://arxiv.org/abs/2601.08797)
 
 ## Description
@@ -94,6 +94,19 @@ The segmentation baselines are implemented with [mmsegmentation](https://github.
 | [SETR](https://github.com/open-mmlab/mmsegmentation/blob/main/configs/setr/setr_vit-l_naive_8xb2-160k_ade20k-512x512.py)     | 84.7     | 91.5     | 91.1     |
 | [PIDNet](https://github.com/open-mmlab/mmsegmentation/blob/main/configs/pidnet/pidnet-l_2xb6-120k_1024x1024-cityscapes.py)   | 82.8     | 90.5     | 92.2     |
 | DentalX (ours)                                                                                                               | **86.3** | **92.5** | **94.2** |
+
+
+## Citation
+If you find this work useful for your research, please cite our work as
+```bibtex
+@inproceedings{dentalx2026tan,
+   title     = {DentalX: Context-Aware Dental Disease Detection With Radiographs},
+   author    = {Tan, Zhi Qin and Zhu, Xiatian and Addison, Owen and Li, Yunpeng},
+   booktitle = {Proceedings of the International Symposium on Biomedical Imaging (ISBI)},
+   year      = {2026},
+   address   = {London, UK},
+}
+```
 
 ## Acknowledgement
 This work is developed based on the codebase of [YOLOX](https://github.com/Megvii-BaseDetection/YOLOX). We thank the authors for releasing their source code and models.
